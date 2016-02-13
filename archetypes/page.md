@@ -1,5 +1,5 @@
 +++
 description = ""
 keywords = []
-type = "post"
+type = "page"
 +++
