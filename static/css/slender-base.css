@@ -29,7 +29,7 @@ body {
 /* Navigation */
 
 nav ul {
-    text-align: center;
+    text-align: right;
     padding: 0px;
     margin-top: 0;
 }
@@ -51,7 +51,7 @@ header {
 h1.brand {
     font-family: "Fjalla One", Helvetica, sans-serif;
     font-size: 68px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 6px;
     text-align: center;
 }
@@ -167,6 +167,19 @@ article {
 
 .article-content * a {
     color: #000 !important;
+}
+
+.list {
+    color: #7e7e7e;
+    font-size: 14px;
+    margin-top: -24px;
+}
+
+.list a {
+    color: #000 !important;
+    font-size: 28px;
+    line-height: 48px;
+    text-decoration: none;
 }
 
 /* Footer */
