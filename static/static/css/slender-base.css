@@ -169,17 +169,41 @@ article {
     color: #000 !important;
 }
 
-.list {
-    color: #7e7e7e;
-    font-size: 14px;
-    margin-top: -24px;
+.term-title {
+    font-size: 28px;
+    line-height: 38px;
 }
 
-.list a {
-    color: #000 !important;
-    font-size: 28px;
-    line-height: 48px;
+.term-title a {
+    color: #3498db !important;
     text-decoration: none;
+}
+
+/* List */
+#list {
+    list-style:none
+}
+
+#list>li {
+    vertical-align:top;
+    margin-bottom:.5em;
+    display:table;
+    width:100%;
+    padding:0 0;
+}
+
+#list>li>a {
+    display:table-cell;
+    font-size: 28px;
+    text-decoration: none;
+}
+    
+#list>li>.meta {
+    display:table-cell;
+    text-align:right;
+    color: #7e7e7e;
+    font-size: 14px;
+    width:25%;
 }
 
 /* Footer */
@@ -194,6 +218,10 @@ footer p {
 }
 
 /* Smaller screen sizes */
+
+blockquote  {
+    background-color: #F5F5F5;
+}
 
 @media (max-width: 768px) {
     header h1 {

@@ -1,4 +1,4 @@
-Slender
+Get from Slender
 =======
 
 Minimalist theme for [Hugo](http://gohugo.io/) with [base16](https://github.com/chriskempson/base16) color schemes.
